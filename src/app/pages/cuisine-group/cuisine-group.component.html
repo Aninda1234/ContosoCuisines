@@ -1,0 +1,14 @@
+<!-- src/app/pages/cuisine-group/cuisine-group.component.html -->
+<div *ngIf="cuisine" class="group-detail">
+    <img [src]="cuisine.GroupImagePath" alt="{{ cuisine.Title }} group image">
+    <h2>{{ cuisine.Title }}</h2>
+    <p>{{ cuisine.Subtitle }}</p>
+  </div>
+  
+  <div *ngFor="let dish of dishes" class="dish-card">
+    <a routerLink="/item/{{ dish.UniqueId }}">
+      <img [src]="dish.TileImagePath" alt="{{ dish.Title }}">
+      <p>{{ dish.Title }}</p>
+    </a>
+</div>
+  
