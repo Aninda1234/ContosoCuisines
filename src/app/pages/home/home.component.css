@@ -1,0 +1,35 @@
+/* src/app/pages/home/home.component.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .grid-item {
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px 20px 10px; /* Added margin for spacing */
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 50px; /* Adjusted gap for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px; /* Adjusted gap for smaller screens */
+    }
+  
+    .grid-item {
+      margin: 0 5px 10px 5px; /* Adjusted margin for smaller screens */
+    }
+  }
+
+  

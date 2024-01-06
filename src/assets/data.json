@@ -1,7 +1,7 @@
 {"Groups":[
 	{ 
 		"ImagePath" : "assets/Images/Chinese/chinese_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "Chinese cuisine is a culinary tapestry rich in flavors, textures, and cultural diversity. Renowned for its harmonious blend of sweet, sour, salty, bitter, and umami tastes, it encompasses regional specialties like Sichuan's fiery spices, Cantonese dim sum delights, and the delicate balance of flavors in Peking duck. With a history spanning thousands of years, Chinese cuisine is a sensory celebration that reflects the nation's diverse landscapes and traditions. ",
 		"GroupImagePath" : "assets/Images/Chinese/chinese_group.png",
 		"GroupHeaderImagePath" : "assets/Images/Chinese/chinese_group_header.png",
 		"UniqueId" : "Group-1",
@@ -147,7 +147,7 @@
 	},
 	{
 		"ImagePath" : "assets/Images/french/french_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "French cuisine, renowned worldwide, is a culinary masterpiece characterized by exquisite flavors, meticulous preparation, and a rich cultural heritage. From buttery croissants to decadent cheeses and fine wines, each dish reflects a harmonious blend of tradition and innovation. The artistry of French chefs elevates dining to an indulgent experience, celebrating the culinary finesse that defines this gastronomic treasure. ",
 		"GroupImagePath" : "assets/Images/French/french_group.png",
 		"GroupHeaderImagePath" : "assets/Images/French/french_group_header.png",
 		"UniqueId" : "Group-2",
@@ -306,7 +306,7 @@
 	},
 	{ 
 		"ImagePath" : "assets/Images/german/german_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "German cuisine is a delectable fusion of hearty flavors and culinary traditions, renowned for its savory sausages, pretzels, and rich, comforting stews. Bratwurst and schnitzel showcase the country's love for meat, while sauerkraut and pretzels add a tangy and crunchy dimension. Indulge in the diverse regional specialties, from the Bavarian pretzels to the iconic sausages, for a taste of Germany's culinary excellence. ",
 		"GroupImagePath" : "assets/Images/German/german_group.png",
 		"GroupHeaderImagePath" : "assets/Images/German/german_group_header.png",
 		"UniqueId" : "Group-3",
@@ -446,7 +446,7 @@
 	},
 	{
 		"ImagePath" : "assets/Images/Indian/indian_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "Indian cuisine is a sensory explosion, where a symphony of spices, vibrant colors, and diverse flavors dance on the palate. From the fiery curries of the north to the coconut-infused dishes of the south, each region contributes to a culinary tapestry rich in tradition and innovation. Tantalizing the taste buds with aromatic spices, intricate blends, and a medley of textures, Indian cuisine is a celebration of diversity, inviting a gastronomic journey through the heart and soul of a vibrant culture. ",
 		"GroupImagePath" : "assets/Images/Indian/indian_group.png",
 		"GroupHeaderImagePath" : "assets/Images/Indian/indian_group_header.png",
 		"UniqueId" : "Group-4",
@@ -606,7 +606,7 @@
 	},
 	{	
 		"ImagePath" : "assets/Images/Italian/italian_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "Italian cuisine, renowned worldwide for its flavorful simplicity and regional diversity, is a culinary symphony that celebrates fresh, high-quality ingredients. From the savory allure of pasta dishes like spaghetti Bolognese to the exquisite perfection of pizza Margherita, Italian gastronomy is a passionate embrace of tradition and innovation, captivating palates with the rich heritage of centuries-old culinary craftsmanship. ",
 		"GroupImagePath" : "assets/Images/Italian/italian_group.png",
 		"GroupHeaderImagePath" : "assets/Images/Italian/italian_group_header.png",
 		"UniqueId" : "Group-5",
@@ -753,7 +753,7 @@
 	},
 	{
 		"ImagePath" : "assets/Images/Mexican/mexican_group_detail.png",
-		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
+		"Description" : "Mexican cuisine, a vibrant tapestry of flavors, melds indigenous and Spanish influences to create a rich culinary heritage. Characterized by bold spices, fresh ingredients, and diverse regional variations, it showcases staples like corn, beans, and chili peppers. Tantalizing dishes such as tacos, enchiladas, and guacamole reflect a harmonious blend of tradition and innovation, inviting a sensory fiesta for food enthusiasts worldwide. ",
 		"GroupImagePath" : "assets/Images/Mexican/mexican_group.png",
 		"GroupHeaderImagePath" : "assets/Images/Mexican/mexican_group_header.png",
 		"UniqueId" : "Group-6",

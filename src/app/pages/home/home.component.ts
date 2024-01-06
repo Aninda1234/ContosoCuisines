@@ -22,9 +22,10 @@ export class HomeComponent implements OnInit {
     console.log(this.cuisines$); 
   }
   
-  navigateToGroup(cuisineId: string): void {
-    this.router.navigate(['/group', cuisineId]);
-  }
+  // Use routes setup in app-routing module instead of navigation function 
+  // navigateToGroup(cuisineId: string): void {
+  //   this.router.navigate(['/group', cuisineId]);
+  // }
   
   // cuisines: Cuisine[] = [];
 

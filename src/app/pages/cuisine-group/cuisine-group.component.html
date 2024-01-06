@@ -1,14 +1,23 @@
 <!-- src/app/pages/cuisine-group/cuisine-group.component.html -->
-<div *ngIf="cuisine" class="group-detail">
-    <img [src]="cuisine.GroupImagePath" alt="{{ cuisine.Title }} group image">
-    <h2>{{ cuisine.Title }}</h2>
-    <p>{{ cuisine.Subtitle }}</p>
+
+<h1> Contoso Cuisines </h1>
+<div class="group-container">
+  <div class="culture-info">
+    <!-- <img [src]="cuisine?.GroupImagePath" alt="{{ cuisine?.Title }}"> -->
+    <img [src]="cuisine?.GroupHeaderImagePath" alt="{{ cuisine?.Title }} Header">
+    <h2> {{ cuisine?.Title }} Dishes </h2>
+    <p>{{ cuisine?.Description }} </p>
   </div>
-  
-  <div *ngFor="let dish of dishes" class="dish-card">
-    <a routerLink="/item/{{ dish.UniqueId }}">
-      <img [src]="dish.TileImagePath" alt="{{ dish.Title }}">
-      <p>{{ dish.Title }}</p>
-    </a>
+  <div class="dishes-grid">
+    <div *ngFor="let dish of dishes">
+      <div class="dish">
+        <a routerLink="/item/{{ dish.UniqueId }}">
+          <img [src]="dish.TileImagePath" alt="{{ dish.Title }}">
+          <p>{{ dish.Title }}</p>
+        </a>  
+      </div>
+    </div>
+  </div>
 </div>
+
   

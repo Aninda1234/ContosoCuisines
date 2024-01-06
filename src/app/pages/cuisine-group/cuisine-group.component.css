@@ -1,0 +1,51 @@
+/* src/app/pages/cuisine-group/cuisine-group.component.css */
+.group-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .culture-info {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+  }
+
+  .dish {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+    /* Media Query for Tablet and Desktop */
+    @media only screen and (min-width: 768px) {
+        .group-container {
+        flex-direction: row;
+        }
+    
+        .dishes-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+        justify-content: space-between; /* Adjust spacing between items */
+        }
+    }
+  
+  
+  /* Media Query for Phone */
+  @media only screen and (max-width: 767px) {
+    .dishes-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .dish {
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+  }
+
+  

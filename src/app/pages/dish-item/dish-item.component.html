@@ -1,15 +1,33 @@
 <!-- src/app/pages/dish-item/dish-item.component.html -->
 
-<div *ngIf="dish" class="item-detail">
-    <img [src]="dish.TileImagePath" alt="{{ dish.Title }} image">
-    <h2>{{ dish.Title }}</h2>
-    <p>{{ dish.Description }}</p>
-    <!-- Add more details as needed -->
-    <p>Rating: {{ dish.Rating }}</p>
-    <p>PreparationTime: {{ dish.PreparationTime }} mins </p>
-    <p><b>Ingredients: </b>{{ dish.Ingredients }}</p>
-    <!-- <p>{{ dish.Description }}</p>
-    <p>{{ dish.Description }}</p> -->
-
-</div>
+<h1> Contoso Cuisines </h1>
+<div class="container">
+    <img [src]="dish?.ImagePath" alt="{{ dish?.Title }}">
   
+    <div class="details">
+      <h2>{{ dish?.Title }}</h2>
+      <h3>{{ dish?.Description }}</h3>
+
+      <br/>
+      <!-- Add more details as needed -->
+      <p><b>Rating: </b>{{ dish?.Rating }} out of 5. </p>
+      <p><b>PreparationTime: </b>{{ dish?.PreparationTime }} mins </p>
+      <h3><b>Ingredients: </b></h3>
+      <ul>
+        <li *ngFor="let ingredient of dish?.Ingredients">{{ ingredient }}</li>
+      </ul>
+
+      <p><b>Cooking Instructions: </b>{{ dish?.Content }}</p>
+      <p><b>Favourite: </b>
+        <ng-container *ngIf="dish?.Favorite; else notFavorite">
+          Yes
+        </ng-container>
+        <ng-template #notFavorite>
+          No
+        </ng-template>
+      </p>
+      <!-- <p><b>Favourite: </b>{{ dish?.Favorite }}</p>   -->
+    </div>
+  </div>
+  
+ 

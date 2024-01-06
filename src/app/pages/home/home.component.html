@@ -1,11 +1,17 @@
 <!-- src/app/pages/home/home.component.html -->
 
+<h1> Welcome to Contoso Cuisines App </h1>
+<h3> An App where you can explore different cuisines from across the world. </h3>
+
   <!-- <div *ngFor="let cuisine of cuisines" (click)="navigateToGroup(cuisine.UniqueId)"> -->
-  <!-- For observables $ | async has to be added -->
-<div *ngFor="let cuisine of cuisines$ | async" (click)="navigateToGroup(cuisine.UniqueId)">
+  <!-- For observables $ | async has to be added. Also use router link instead if navigation function.  -->
+
+<div class="grid-container">
+  <div *ngFor="let cuisine of cuisines$ | async" class="grid-item">
     <a routerLink="/group/{{ cuisine.UniqueId }}">
       <img [src]="cuisine.GroupImagePath" alt="{{ cuisine.Title }}">
-      <p>{{ cuisine.Title }}</p>
+      <p>{{ cuisine.Title }}</p>  
     </a>
+  </div>
 </div>
-  
+

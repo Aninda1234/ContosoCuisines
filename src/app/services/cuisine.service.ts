@@ -28,7 +28,10 @@ export class CuisineService {
           UniqueId: group.UniqueId,
           Title: group.Title,
           Subtitle: group.Subtitle,
+          Description: group.Description,
+          ImagePath: group.ImagePath,
           GroupImagePath: group.GroupImagePath,
+          GroupHeaderImagePath: group.GroupHeaderImagePath,
         }))
       )
     );
@@ -43,7 +46,10 @@ export class CuisineService {
               UniqueId: cuisine.UniqueId,
               Title: cuisine.Title,
               Subtitle: cuisine.Subtitle,
+              Description: cuisine.Description,
+              ImagePath: cuisine.ImagePath,
               GroupImagePath: cuisine.GroupImagePath,
+              GroupHeaderImagePath: cuisine.GroupHeaderImagePath,
             }
           : undefined;
       })
@@ -79,14 +85,17 @@ export class CuisineService {
         Subtitle: dish.Subtitle,
         Description: dish.Description,
         Ingredients: dish.Ingredients || [],
+        Content: dish.Content, 
         PreparationTime: dish.PreparationTime || 0,
         Rating: dish.Rating || 0,
+        Favorite: dish.Favorite,
+        ImagePath: dish.ImagePath,
         TileImagePath: dish.TileImagePath,
       }));
   }
 
 
-  /// Use this later 
+  /// Save it for understanding purpose 
   // private groupsData = {
   //   Groups: [
   //     {

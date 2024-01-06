@@ -12,6 +12,7 @@ import { Cuisine, Dish } from '../../interfaces/cuisine.interface';
 export class CuisineGroupComponent implements OnInit {
   cuisine: Cuisine | undefined;
   dishes: Dish[] = [];
+  router: any;
 
   constructor(private route: ActivatedRoute, private cuisineService: CuisineService) {}
 
@@ -47,6 +48,7 @@ export class CuisineGroupComponent implements OnInit {
       // Handle the case where cuisineId is null, e.g., redirect to an error page
     }
   }
+
 }
 
 
