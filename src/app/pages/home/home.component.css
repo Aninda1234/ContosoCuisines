@@ -32,4 +32,16 @@
     }
   }
 
+  @media (max-width: 480px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      margin: 20 px;
+    }
+  
+    .grid-item {
+      margin: 0 5px 10px 5px; /* Adjusted margin for smaller screens */
+    }
+  }
+
   
